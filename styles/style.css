@@ -1,0 +1,277 @@
+body{
+    margin: 0;
+    line-height: 1.5;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+header{
+    padding-top: 20px;
+} 
+.titulosh2{
+    width: 30%;
+    margin: auto;
+    padding: 3px;
+    border-bottom: 3px solid black;
+}
+.contenh{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+.navegacion a{
+    text-decoration: none;
+    color: black;
+    margin-right: 22px;
+}
+.navegacion a:hover{
+    color: #F78A08;
+}
+.sectimg img{
+    width: 100%;
+    margin-top: 20px;
+}
+.contmain{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.artimain{
+    width: 25%;
+}
+.contimgmain{
+    width: 70px;
+    margin: auto;
+}
+.contimgmain img{
+    width: 100%;
+}
+.textmain{
+    text-align: center;
+    padding: 20px;
+}
+.contblog{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    
+}
+.artblog{ 
+    width: 25%;
+    border: 1px solid black;
+    height: 450px;
+}
+.artblog img{
+    width: 100%;
+}
+.artblog span{
+    color:#F78A08;
+    font-size: 15px;
+    font-style: italic;
+}
+.textblog{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.textblog a{
+    text-align: center;
+    text-decoration: none;
+    background: #F78A08;
+    padding: 12px 94px;
+    font-size: 15px;
+    color: white;
+
+}.sectrecom{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contrecom{
+    width: 50%;
+    margin: auto;
+    font-style: italic
+}
+.contrecom span{
+    color:#F78A08;
+}
+.pie{ 
+    border-top: solid 3px #F78A08;
+    padding: 20px;
+}
+.contpie{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+.contquien{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.textquien{
+    width: 100%;
+}
+.imgcomp{
+    width: 100%;
+}
+.imgcomp img{
+    width: 32%;
+}
+.contequip{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.artautor{
+    height: 480px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.artautor img{
+    width: 100%;
+}
+.textautor{
+    font-size: 15px;
+    text-align: center;
+}
+.textautor p{
+    color: #F78A08;
+}
+.contcomp{
+    margin-bottom: 50px;
+}
+.sectimg img{
+    margin-bottom: 80px;
+}
+.contmenu{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.artamenu{
+    width: 25%;
+    height: 450px;
+}
+.artmenu img{
+    width: 100%;
+
+}
+.textmenu{
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+.textmenu p{
+    color: #F78A08;
+}
+.titulos-h2 h2{
+    font-size: 30px;
+    margin: auto;
+    padding: 50px;
+    border-bottom: 3px solid black;
+    width: 60%;
+}
+.contcont {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;  
+}
+.contult{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;  
+   
+}
+.textult{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    border: 0.5px solid black;
+}
+.contain-1{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+.contactoti-h2{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border-bottom: 3px solid black;
+    padding: 5px;
+    padding-top: 70px;
+    }
+.input-1{
+        width: 20%;
+        padding: 20px;
+    }
+.input-1 input{
+    width: 100%;
+    padding: 15px;
+    font-style: italic
+}
+.input-2 input{
+    width: 57.3%;
+    margin-left: 21.4%;
+    margin-bottom: 25px;
+    padding: 15px;
+    justify-content: space-evenly;
+    height: 300px;
+    font-style: italic
+}
+.input-2 ::placeholder{
+    transform: translatey(-140px)
+} 
+.boton{
+    width: 0%;
+    margin-bottom: 100px;
+    margin-left: 21.5%;
+    margin-top: 30px;
+    margin-bottom: 250px;
+}
+.boton span{
+    width: 20px;
+    padding: 18px 30px;
+    background:#f78a08;
+    font-size: 20px;
+    color: #ffffff;
+}
+.pi-3{
+    margin-bottom: 250px;
+}
+.naavegacion {
+    margin-bottom: 250px;
+}
+.naavegacion a{
+    text-decoration: none;
+    color: black;
+    margin-right: 22px;
+}
